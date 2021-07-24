@@ -1,0 +1,29 @@
+<html lang="en-8">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Guess The Number  (1-100)</h1>
+        <div class="checkArea">
+            <input type="text" id="num">
+            <input type="submit" id="check" onclick="checkNumber()" value="Check" >
+
+            <div class="buttons">
+                <input type="submit" id="reset" onclick="reset()" value="Reset" >
+            </div>
+            <p id="sonuc"></p>
+            <img src="magic_hat_PNG59.png" alt="#">
+            <h3>Write the number.</h3><br><br>
+            <p>Number of attempts: <span id="guess"></span></p>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
